@@ -1,10 +1,8 @@
-name: Print Node Version
-on: push
-jobs:
-  print-version:
-    runs-on: ubuntu-latest
-    steps:
-          - run: node --version
-          - uses: actions/setup-node@v2
-          - run : node index.js
+name : Print Node Version
+on : push
+jobs : print-version:
+          runs-on : ubuntu-latest
+          steps :
+                - run: node --version
+          
         
